@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thông Tin Cá Nhân</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            background-color: #96D4D4;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        th {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th colspan="2"><h2>THÔNG TIN CÁ NHÂN</h2></th>
+    </tr>
+    <tr>
+        <td>
+            <p>&#10004; Họ tên: <input type="text"></p>
+            <p>&#10004; Lớp: <input type="text"></p>
+            <p>&#10004; Sở thích:</p>
+            <p>&rarr; <input type="text"></p>
+            <p>&rarr; <input type="text"></p>
+            <p>&rarr; <input type="text"></p>
+        </td>
+        <td>
+            <p>Chèn ảnh ở đây</p>
+            <input type="file" id="file-upload" accept="image/*">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <p>&#8226; Giới thiệu bản thân:</p>
+			<textarea
+    style="width: 100%; height: 100px; text-align: center;" 
+    placeholder="gõ vào nội dung
+(made by nhật đẹp trai)"></textarea>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
